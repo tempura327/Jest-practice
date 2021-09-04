@@ -1,0 +1,26 @@
+https://tw.alphacamp.co/blog/tdd-test-driven-development-example
+https://medium.com/@envive.tw/%E5%89%8D%E8%A8%80-%E6%9A%B4%E8%B5%B0gandhi-%E4%B8%8D%E7%9F%A5%E9%81%93%E5%A4%A7%E5%AE%B6%E6%9C%89%E6%B2%92%E6%9C%89%E7%8E%A9%E9%81%8E%E4%B8%80%E6%AC%BE%E9%81%8A%E6%88%B2%E5%8F%AB%E5%81%9A-civilization-%E6%96%87%E6%98%8E%E5%B8%9D%E5%9C%8B-441891b116d7
+https://ithelp.ithome.com.tw/articles/10235921?sc=iThelpR
+
+TDD（Test-Driven Development) ⇒　先寫測試再開發
+
+a.好處  1.確保測試程式的正確撰寫
+        2.有助於在開發初期釐清程式介面如何設計
+
+b.流程  1.先故意讓測試跑錯誤，以確認測試是真的會報錯的
+        2.寫code
+        3.拿寫好的code去跑測試
+        4.根據3的結果重構
+
+------------------------------------------------------
+https://juejin.cn/post/6844904009887645709
+
+BDD(Behavior-Deriven Development) ⇒　寫可讀性高的測試
+
+Jest ⇒ 預設有斷言
+Mocha ⇒ 要裝Chai才有斷言
+
+斷言(assertion)庫 ⇒ 一種判斷工具，明確地將預測結果指出。若實際結果和預測不同。且可讀性高
+                ⇒ ex: expect, toBe, toBeLessThan
+
+下載量 ⇒ https://www.npmtrends.com/ava-vs-jest-vs-mocha-vs-tape
